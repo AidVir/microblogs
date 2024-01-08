@@ -1,7 +1,6 @@
 package com.aidas.microblogs.service;
 
 import com.aidas.microblogs.dto.JwtResponse;
-import com.aidas.microblogs.dto.MessageResponse;
 import com.aidas.microblogs.dto.UserCredentialsDto;
 import com.aidas.microblogs.exception.ResourceNotFoundException;
 import com.aidas.microblogs.exception.ValidationException;
@@ -11,7 +10,6 @@ import com.aidas.microblogs.security.jwt.JwtUtils;
 import java.util.List;
 import org.springframework.beans.factory.annotation.Autowired;
 
-import org.springframework.http.ResponseEntity;
 import org.springframework.security.authentication.AuthenticationManager;
 import org.springframework.security.authentication.UsernamePasswordAuthenticationToken;
 import org.springframework.security.core.Authentication;
